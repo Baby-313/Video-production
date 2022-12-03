@@ -107,6 +107,10 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration: none;;
     font-size: 14px;
     display: inline-block;
+    margin-left: -3px;
+}
+.btn:first-child{
+    margin-left: 0px;
 }
 .btn--hello{
     margin-bottom: 234px;
@@ -122,6 +126,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    margin-left: 10px;
 }
 .offers{
     margin-bottom: 180px;
@@ -135,10 +140,11 @@ h1,h2,h3,h4,h5,h6 {
     margin-right: 31px;
     margin-left: -8px;
 }
-.offers__header{
-    margin-top: 0px;
-    min-height: 150px;
+.offers__img{
+    margin-top: 34px;
+    margin-left: 29px;
 }
+
 .offers__list :last-child{
     margin-right: 0;
 }
@@ -147,21 +153,33 @@ h1,h2,h3,h4,h5,h6 {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-
+    margin-top: -11px;
+    margin-left: -8px;
+    margin-bottom: 14px;
 }
 
 .offer__feature-text ,.offers__text{
     color: #666666;
 }
 .offers__text{
+    width: 313px;
     font-size: 14px;
+    margin-left: -8px;
+    margin-top: 11px;
+    margin-bottom: 33px;
 }
 .offers__features{
-    vertical-align: top;
-    width: 115px;
-    margin-right: 30px;
+    margin-left: 0px;
 }
-.offers__features:last-child{
-    margin-right: 0;
+.offers__feature{
+    display: inline-block;
+    vertical-align: top;
+    width: 123px;
+    margin-right: 64px;
+    margin-left: -8px;
+    margin-bottom: 14px;
+}
+.offers__content{
+    padding: 36px 30px;
 }
 
