@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .wraper__content{
     margin: 0 auto;
-    width: 1158px;
+    width: 1142px;
 }
 .header{
     height: 129px;
@@ -118,12 +118,7 @@ h1,h2,h3,h4,h5,h6 {
 .btn :hover{
     background: #FF3D00;
 }
-.btn--light{
-    background: #fff;
-    border-radius: 35px;
-    color: #FF3D00;
-    margin-left: 3px;
-}
+
 .offers{
     margin-bottom: 180px;
 }
@@ -287,10 +282,18 @@ background: #FF3D00;
 }
 .footer{
     margin-left: 381px;
-    width: 1150px;
+    width: 1142px;
     height: 129px;
     position: relative;
     margin-top: 81px;
+}
+.footer__container{
+    width: 1142px;
+    height: 92.64px;
+    margin-bottom: 46px;
+}
+.footer__line{
+    margin-bottom: 30px;
 }
 .footer__logo{
     display: block;
@@ -300,7 +303,7 @@ background: #FF3D00;
     width: 198px;
     height: 46px;
 }
-.footer__menu{
+.footer-menu{
     position: absolute;
     top: 27px;
     left: 328px;
@@ -319,7 +322,7 @@ background: #FF3D00;
     vertical-align: middle;
     margin-right: 50px;
 }
-.footer__contacts{
+.footer-contacts{
     position: absolute;
     top: 10px;
     right: 16px;
@@ -327,5 +330,5 @@ background: #FF3D00;
     text-align: right;
 }
 .main-page-wraper{
-    background: url("/Video-production/img/hero.png") center top no-repeat,url("/Video-production/img/bottom-pic.png") bottom no-repeat;
+    background: url("/../img/hero.png") center top no-repeat,url("/../img/bottom-pic.png") bottom no-repeat;
 }
