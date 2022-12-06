@@ -6,7 +6,6 @@ body{
     background: #17191C;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-    width: 1920px;
 }
 a{
     color: inherit;
@@ -27,7 +26,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .main-page-wraper{
     background:  url("/Video-production/img/hero.png") center top no-repeat, url("/Video-production/img/bottom-pic.png") center bottom 306px no-repeat;
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 .wraper__content{
@@ -286,8 +285,8 @@ background: #FF3D00;
     margin-bottom: 0px;
 }
 .footer{
-    margin-left: 373px;
     width: 1142px;
+    margin: 0 auto;
     height: 129px;
     position: relative;
     margin-top: 81px;
