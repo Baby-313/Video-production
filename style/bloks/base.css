@@ -330,5 +330,5 @@ background: #FF3D00;
     text-align: right;
 }
 .main-page-wraper{
-    background: url("/Video-production/img/hero.png") center top no-repeat,url("/Video-production/img/bottom-pic.png") bottom no-repeat;
+    background: url("/Video-production/img/hero.png") center top no-repeat, url("/Video-production/img/bottom-pic.png") center bottom 306px no-repeat;
 }
