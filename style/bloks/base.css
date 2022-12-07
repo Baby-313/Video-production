@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {
     box-sizing: border-box;
 }
 .main-page-wraper{
-    background:  url("/Video-production/img/hero.png") center top no-repeat, url("/Video-production/img/bottom-pic.png") center bottom 306px no-repeat;
+    background:  url("../../img/hero.png") center top no-repeat, url("../../img/bottom-pic.png") center bottom 306px no-repeat;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -253,7 +253,7 @@ background: #FF3D00;
     width: 490px;
     height: 505px;
     left: 389px;
-    background: url(/Video-production/img/cameraman.png) center center/cover no-repeat;
+    background: url(../../img/cameraman.png) center center/cover no-repeat;
 }
 .about__desc{
     background: #fff;
@@ -325,28 +325,28 @@ background: #FF3D00;
     height: 36px;
 }
 .socials__icon--telegram {
-    background: url(/Video-production/img/telegram.png);
+    background: url(../../img/telegram.png);
 }
 .socials__icon--telegram :hover{
-    background: url(/Video-production/img/tg-hover.png);
+    background: url(../../img/tg-hover.png);
 }
 .socials__icon--vk {
-    background: url(/Video-production/img/vk.png);
+    background: url(../../img/vk.png);
 }
 .socials__icon--vk :hover{
-    background: url(/Video-production/img/vk-hover.png);
+    background: url(../../img/vk-hover.png);
 }
 .socials__icon--f {
-    background: url(/Video-production/img/f.png);
+    background: url(../../img/f.png);
 }
 .socials__icon--f :hover{
-    background: url(/Video-production/img/f-hover.png);
+    background: url(../../img/f-hover.png);
 }
 .socials__icon--inst {
-    background: url(/Video-production/img/in.png);
+    background: url(../../img/in.png);
 }
 .socials__icon--inst :hover{
-    background: url(/Video-production/img/inst-hover.png);
+    background: url(../../img/inst-hover.png);
 }
 .socials__link{
     display: block;
