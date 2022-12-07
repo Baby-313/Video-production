@@ -1,0 +1,252 @@
+body{
+    font-family: "Open Sans";
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #17191C;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.main-page-wraper{
+    max-width: 1920px;
+}
+a{
+    color: inherit;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-weight: normal;
+}
+.header{
+    min-height: 416px;
+    position: relative;
+    background: url(../../img/header.png);
+}
+.logo{
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    width: 198px;
+    height: 46px;
+}
+.menu{
+    position: absolute;
+    top: 30px;
+    left: 439px;
+}
+.contacts{
+    position: absolute;
+    top: 18px;
+    right: 16px;
+    font-style: normal;
+    text-align: right;
+}
+.menu__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.menu__item:last-child{
+    margin-right: 0;
+
+}
+.menu__link{
+    font-size: 14px;
+    text-decoration: none;
+}
+.menu__link:hover{
+    color:#FF3D00;
+
+}
+.contacts__phone{
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+.contacts__info{
+    font-size: 13px;
+    text-decoration: underline;
+    color: #FF3D00;
+}
+.header__title{
+    font-weight: 800;
+    font-size: 72px;
+}
+.services{
+    background: #E5E5E5;
+}
+.services__item{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.services__title{
+    color: #000000;
+    font-weight: 700;
+    font-size: 36px;
+}
+.services__desc{
+    width: 652px;
+    height: 136px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+}
+.btn{
+    background: #FF5500;
+    border-radius: 35px;
+    padding: 18px 54px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 3px;
+}
+.btn--light{
+    color: #FF3D00;
+    background: #fff;
+    border: 2px solid #FF5500
+}
+.btn--light:hover{
+    color: #fff;
+}
+.btn:hover{
+    background: #FF3D00;
+}
+.pager {
+    color: #000000;
+    text-align: center;
+}
+.pager___display,.pager___list,.pager__item{
+    display: inline-block;
+    vertical-align: middle;
+}
+.pager___display{
+    margin-right: 20px;
+}
+.pager__item--active .pager__link{
+    color: #fff;
+    background: #FF3D00;
+}
+.pager__link{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+.pager__link:hover{
+    color: #fff;
+    background: #FF3D00;
+}
+.partners__container{
+    height: 537px;
+    background: #F4F5F5; 
+}
+.partners__title{
+    color: #1A1B1E;
+    font-weight: 700;
+    font-size: 48px;
+}
+.footer{
+    width: 1142px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer__container{
+    width: 1142px;
+    height: 132px;
+}
+.footer__line{
+    margin-bottom: 30px;
+}
+.footer__logo{
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    width: 198px;
+    height: 46px;
+}
+.footer-menu{
+    position: absolute;
+    top: 27px;
+    left: 328px;
+}
+.footer__info{
+    font-size: 11px;
+}
+.socials{
+    margin-left: 703px;
+    margin-top: 22px;
+    display: inline-block;
+}
+
+.socials__icon{
+    display: inline-block;
+    margin-right: 6px;
+    width: 36px;
+    height: 36px;
+}
+.socials__icon--telegram {
+    background: url(../../img/telegram.png);
+}
+.socials__icon--telegram :hover{
+    background: url(../../img/tg-hover.png);
+}
+.socials__icon--vk {
+    background: url(../../img/vk.png);
+}
+.socials__icon--vk :hover{
+    background: url(../../img/vk-hover.png);
+}
+.socials__icon--f {
+    background: url(../../img/f.png);
+}
+.socials__icon--f :hover{
+    background: url(../../img/f-hover.png);
+}
+.socials__icon--inst {
+    background: url(../../img/in.png);
+}
+.socials__icon--inst :hover{
+    background: url(../../img/inst-hover.png);
+}
+.socials__link{
+    display: block;
+    height: 36px;
+}
+.menu__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.footer-contacts{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-style: normal;
+    text-align: right;
+}
+.footer__info{
+    color: #9A9A9A;
+    font-size: 11px;
+}
+.footer-contacts__phone{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 26px;
+}
