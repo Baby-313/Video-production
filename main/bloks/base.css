@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {
     box-sizing: border-box;
 }
 .main-page-wraper{
-    background:  url("./img/hero.png") center top no-repeat, url("./img/bottom-pic.png") center bottom 306px no-repeat;
+    background:  url("../../img/hero.png") center top no-repeat, url("../../img/bottom-pic.png") center bottom 306px no-repeat;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -261,7 +261,7 @@ background: #FF3D00;
     width: 490px;
     height: 505px;
     left: 389px;
-    background: url("/img/cameraman.png") center center/cover no-repeat;
+    background: url("../../img/cameraman.png") center center/cover no-repeat;
 }
 .about__desc{
     background: #fff;
