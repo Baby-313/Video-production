@@ -36,32 +36,36 @@ h1,h2,h3,h4,h5,h6 {
 .header{
     height: 129px;
     position: relative;
-    margin-bottom: 92px;
+    margin-bottom: 80px;
+}
+.header__container{
+    display: flex;
+    margin-top: 62px;
 }
 .logo{
     display: block;
-    position: absolute;
-    top: 13px;
-    left: 0px;
     width: 198px;
     height: 46px;
 }
 .menu{
-    position: absolute;
-    top: 30px;
-    left: 439px;
+    margin-left: 241px;
+    margin-top: 21px;
+}
+.menu__list{
+    display: flex;
 }
 .contacts{
-    position: absolute;
-    top: 18px;
-    right: 16px;
+    display: flex;
     font-style: normal;
     text-align: right;
+    flex-direction: column;
+    margin-left: 246px;
+    margin-top: 5px;
 }
 .menu__item{
-    display: inline-block;
+    display: flex;
     vertical-align: middle;
-    margin-right: 50px;
+    margin-right: 54px;
 }
 .menu__item:last-child{
     margin-right: 0;
@@ -102,6 +106,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 40px;
 }
 .btn{
+    width: 195px;
     background: #FF5500;
     border-radius: 35px;
     padding: 18px 54px;
@@ -110,13 +115,14 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     text-decoration: none;;
     font-size: 14px;
-    display: inline-block;
+    display: flex;
     margin-left: 3px;
 }
 .btn--light{
     color: #FF3D00;
     background: #fff;
     border: 2px solid #FF5500
+    
 }
 .btn--light:hover{
     color: #fff;
@@ -129,26 +135,40 @@ h1,h2,h3,h4,h5,h6 {
 }
 .btn--hello{
     margin-bottom: 234px;
+    margin-left: 292px;
 
 }
+
 .offers{
     margin-bottom: 180px;
 }
+.offers__list{
+    display: flex;
+}
 .offers__item{
     width: 362px;
-    height: 475px;
+    height: 476px;
     background: #fff;
-    display: inline-block;
+    display: flex;
     vertical-align: top;
     border-radius: 4px;
-    margin-right: 23px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 27px;
 }
 .offers__img{
     margin-left: 29px;
     margin-top: 39px;
+    width: 76px;
+    height: 76px;
 }
-
-.offers__list :last-child{
+.offers__img--tv{
+    display: flex;
+    margin-top: 37px;
+    width: 84px;
+    height: 80px;
+}
+.offers__item:last-child{
     margin-right: 0;
 }
 .offers__title{
@@ -169,49 +189,56 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 33px;
 }
 .offers__features{
+    display: flex;
     margin-left: 0px;
+    flex-direction: row;
 }
 .offers__feature{
-    display: inline-block;
+    display: flex;
     vertical-align: top;
     width: 124px;
     margin-right: 55px;
     margin-bottom: 14px;
 }
 .offers__content{
-    padding: 22px 22px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 21px;
+    margin-bottom: 21px;
 }
 .title{
     font-weight: 800;
     font-size: 36px;
     margin-bottom: 49px;
 }
-.news__item{
+.news_list{
+    display: flex;
+    margin-bottom: 55px;
+}
+.news__item--camera{
+    background-image: url(../../img/camera.png);
     width: 557px;
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    margin-right: 11px;
-    margin-bottom: 51px;
+    height: 394px;
+    object-fit: cover;
+    opacity: 70%;
+    margin-right: 24px;
+}
+.news__item--wedding{
+    background-image: url(../../img/wedding.png);
+    width: 557px;
+    height: 394px;
+    object-fit: cover;
+    opacity: 70%;
 }
 .news__item :last-child{
     margin-right: 0px;
 }
-.news__cover{
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 70%;
-}
 .news__content{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 32px 31px;
-    padding-bottom: 23px;
-    min-height: 140px;
+    display: flex;
+    padding: 32px 29px;
+    flex-direction: column;
+    margin-top: 223px;
 }
 .news__date{
     font-style: normal;
@@ -221,7 +248,7 @@ h1,h2,h3,h4,h5,h6 {
 .news__title{
     font-weight: 700;
     font-size: 24px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     margin-top: 12px;
 }
 .news__desc{
@@ -229,12 +256,14 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 16px;    
 }
 .pager {
+    display: flex;
     text-align: center;
     margin-bottom: 147px;
+    margin-left: 382px;
+    align-items: baseline;
 }
-.pager___display,.pager___list,.pager__item{
-    display: inline-block;
-    vertical-align: middle;
+.pager___list{
+    display: flex;
 }
 .pager___display{
     margin-right: 20px;
@@ -254,6 +283,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 .pager__link:hover{
 background: #FF3D00;
+}
+.about__container{
+    margin-bottom: 94px;
 }
 .about__content::before{
     content: "";
@@ -296,10 +328,10 @@ background: #FF3D00;
     width: 1142px;
     margin: 0 auto;
     height: 129px;
-    position: relative;
     margin-top: 81px;
 }
 .footer__container{
+    display: flex;
     width: 1142px;
     height: 92.64px;
     margin-bottom: 46px;
@@ -309,29 +341,33 @@ background: #FF3D00;
 }
 .footer__logo{
     display: block;
-    position: absolute;
     top: 13px;
     left: 0px;
     width: 198px;
     height: 46px;
 }
 .footer-menu{
-    position: absolute;
     top: 27px;
     left: 328px;
+}
+.footer-menu__list{
+    display: flex;
+    margin-left: 131px;
+    margin-top: 19px;
 }
 .footer__info{
     font-size: 11px;
 }
 .socials{
-    margin-left: 703px;
-    margin-top: 22px;
-    display: inline-block;
+    margin-left: 54px;
+    margin-top: 10px;
 }
-
+.socials__icons{
+    display: flex;
+    margin-left: 58px;
+}
 .socials__icon{
-    display: inline-block;
-    margin-right: 6px;
+    margin-right: 10px;
     width: 36px;
     height: 36px;
 }
@@ -359,25 +395,17 @@ background: #FF3D00;
 .socials__icon--inst :hover{
     background: url(../../img/inst-hover.png);
 }
-    .socials__link{
+.socials__link{
     display: block;
     height: 36px;
 }
-.menu__item{
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 50px;
-}
 .footer-contacts{
-    position: absolute;
-    top: 10px;
-    right: 0px;
+    display: flex;
+    margin-top: 6px;
+    margin-left: 63px;
     font-style: normal;
     text-align: right;
-}
-.footer__info{
-    color: #9A9A9A;
-    font-size: 11px;
+    flex-direction: column;
 }
 .footer-contacts__phone{
     text-decoration: none;
