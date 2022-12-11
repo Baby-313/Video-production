@@ -2,6 +2,7 @@ body{
     font-family: "Open Sans";
     color: #fff;
     font-size: 16px;
+    margin:0;
     line-height: 1.42;
     background: #17191C;
     -webkit-font-smoothing: antialiased;
