@@ -67,6 +67,9 @@ h1,h2,h3,h4,h5,h6 {
     margin-right: 0;
 
 }
+.menu__item--active{
+    color:#FF3D00;
+}
 .menu__link{
     font-size: 14px;
     text-decoration: none;
@@ -221,30 +224,59 @@ h1,h2,h3,h4,h5,h6 {
     flex-wrap: wrap;
     align-items: center;
 }
+.partner{
+    filter: grayscale(1);
+}
 .partner--park, .partner--ds,.partner--divico,.partner--zvibes{
     margin-bottom: 60px;
 }
 .partner--divico{
     margin-right: 189px;
 }
+.partner--divico:hover{
+    filter: grayscale(0);
+
+}
 .partner--ds{
     margin-right: 210px;
+}
+.partner--ds:hover{
+    filter: grayscale(0);
 }
 .partner--park{
     margin-right: 220px;
 }
+.partner--park:hover{
+    filter: grayscale(0);
+}
 .partner--rosvideo{
     margin-right: 86px;
+}
+.partner--rosvideo:hover{
+    filter: grayscale(0);
 }
 .partner--zavod{
     margin-right: 146px;
 }
+.partner--zavod:hover{
+    filter: grayscale(0);
+}
 .partner--pixel{
     margin-right: 132px;
+}
+.partner--pixel:hover{
+    filter: grayscale(0);
+}
+.partner--zvibes:hover{
+    filter: grayscale(0);
+}
+.partner--expotv:hover{
+    filter: grayscale(0);
 }
 .footer{
     background: #17191C;
 }
+
 .footer__container{
     display: flex;
     width: 1142px;
