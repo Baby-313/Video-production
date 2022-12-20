@@ -7,9 +7,7 @@ body{
     background: #17191C;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-    margin: 0;
 }
-
 a{
     color: inherit;
 }
@@ -30,18 +28,21 @@ h1,h2,h3,h4,h5,h6 {
 .main-page-wraper{
     max-width: 1920px;
     margin: 0 auto;
-    background: #FFFFFF;
 }
-
-.header{
-    height: 416px;
+.top-line{
     background: url(../img/header.png) center top no-repeat;
-    margin-bottom: 94px;
+}
+.top-line__container{
+    display: flex;
+    min-height: 416px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1142px;
+    padding-bottom: 30px;
 }
 .header__container{
     display: flex;
-    margin: 0 auto;
-    width: 1142px;
     align-items: center;
 }
 .logo{
@@ -93,20 +94,31 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration: underline;
     color: #FF3D00;
 }
-.header__text{
-    margin: 0 auto;
-    width: 1142px;
+.breadcrumbs__list{
+    display: flex;
+    align-items: center;
 }
-.header__title{
-    margin-top: 98px;
+.page-title{
     font-weight: 800;
     font-size: 72px;
 }
-.header__desc{
+.breadcrumbs__item{
+    display: flex;align-items: center;
+}
+.breadcrumbs__item--active .breadcrumbs__link{
     color: #9A9A9A;
+    text-decoration: none;
+}
+.breadcrumbs__item::after{
+    content: "/";
+    color: #9A9A9A;
+}
+.breadcrumbs__item:last-child:after{
+    display: none;
+}
+.breadcrumbs__link{
+    color:#FF3D00;
     font-size: 14px;
-    margin-top: 79px;
-    text-decoration-line: underline;
 }
 .reviews{
     background: #FFFFFF;
@@ -126,10 +138,10 @@ h1,h2,h3,h4,h5,h6 {
 .reviews__list{
     column-count: 2;
     column-gap: 26px;
-    margin-bottom: 66px;
+    padding: 94px 0 63px 0;
 }
 .review__photo{
-    margin-right: 22px;
+    padding-right: 22px;
 }
 .reviews__item{
     margin-bottom: 17px;
@@ -137,7 +149,7 @@ h1,h2,h3,h4,h5,h6 {
 .reviews__header{
     display: flex;
     align-items: center;
-    margin-bottom: 27px;
+    padding-bottom: 27px;
 }
 .review__user{
     display: flex;
@@ -145,7 +157,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
     font-size: 24px;
     color: #2E77A4;
-    margin-bottom: 11px;
+    padding-bottom: 11px;
 }
 .review__user::after{
     content: url(../img/vk-blue\ 1.png);

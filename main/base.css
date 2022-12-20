@@ -95,33 +95,36 @@ h1,h2,h3,h4,h5,h6 {
     color: #FF3D00;
 }
 .hello__container{
+    display: flex;
     margin-left: 183px;
     width: 776px;
     text-align: center;
+    margin-bottom: 234px;
+    flex-direction: column;
+    align-items: center;
 }
 .hello__title{
     font-size: 72px;
     font-weight: 800;
     line-height: 98.5px;
-    margin-bottom: 15px;
+    padding: 0 0 15px;
     text-transform: uppercase;
 }
 .hello__subtitle{
     font-size: 18px;
-    margin-bottom: 40px;
+    padding: 0 0 40px;
 }
 .btn{
-    width: 195px;
+    width: 198px;
     background: #FF5500;
     border-radius: 35px;
-    padding: 18px 54px;
+    padding: 17px 54px;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
     display: flex;
-    margin-left: 3px;
 }
 .btn--light{
     color: #FF3D00;
@@ -135,15 +138,10 @@ h1,h2,h3,h4,h5,h6 {
 .btn:hover{
     background: #FF3D00;
 }
-.btn:first-child{
-    margin-left: 0px;
+.btn--about{
+    width: 168px;
+    padding: 18px 40px;
 }
-.btn--hello{
-    margin-bottom: 234px;
-    margin-left: 292px;
-
-}
-
 .offers{
     margin-bottom: 180px;
 }
@@ -152,26 +150,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 .offers__item{
     width: 362px;
-    height: 476px;
+    min-height: 476px;
     background: #fff;
-    display: flex;
     vertical-align: top;
     border-radius: 4px;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin-right: 27px;
 }
 .offers__img{
-    margin-left: 29px;
-    margin-top: 39px;
     width: 76px;
     height: 76px;
-}
-.offers__img--tv{
-    display: flex;
-    margin-top: 37px;
-    width: 84px;
-    height: 80px;
 }
 .offers__item:last-child{
     margin-right: 0;
@@ -181,7 +168,7 @@ h1,h2,h3,h4,h5,h6 {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    margin-bottom: 14px;
+    padding: 30px 0 0;
 }
 
 .offer__feature-text ,.offers__text{
@@ -190,27 +177,22 @@ h1,h2,h3,h4,h5,h6 {
 .offers__text{
     width: 313px;
     font-size: 14px;
-    margin-top: 11px;
-    margin-bottom: 33px;
+    padding: 11px 0 17px;
 }
 .offers__features{
     display: flex;
-    margin-left: 0px;
     flex-direction: row;
+    padding: 14px 0 0;
 }
 .offers__feature{
     display: flex;
     vertical-align: top;
     width: 124px;
-    margin-right: 55px;
-    margin-bottom: 14px;
 }
 .offers__content{
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
-    margin-left: 21px;
-    margin-bottom: 21px;
+    padding: 38px 21px;
 }
 .title{
     font-weight: 800;
@@ -241,9 +223,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 .news__content{
     display: flex;
-    padding: 32px 29px;
+    padding: 252px 29px 0;
     flex-direction: column;
-    margin-top: 223px;
 }
 .news__date{
     font-style: normal;
@@ -253,8 +234,7 @@ h1,h2,h3,h4,h5,h6 {
 .news__title{
     font-weight: 700;
     font-size: 24px;
-    margin-bottom: 8px;
-    margin-top: 12px;
+    padding: 12.4px 0 4px;
 }
 .news__desc{
     font-weight: 400;
@@ -297,7 +277,6 @@ background: #FF3D00;
     display: inline-block;
     width: 490px;
     height: 505px;
-    left: 389px;
     background: url("../img/cameraman.png") center center/cover no-repeat;
 }
 .about__desc{
@@ -306,22 +285,22 @@ background: #FF3D00;
     display: inline-block;
     border-radius: 5px;
     width: 785px;
-    height: 455px;
+    min-height: 455px;
     margin-left: -140px;
 }
-.title--dark{
+.about__title{
     color: #000000;
     font-weight: 800;
-    font-size: 37px;  
-    margin-bottom: 38px; 
+    font-size: 36px;  
 }
 .about__text{
     color: #060606;
     font-weight: 400;
     font-size: 16px;
-    margin-bottom: 82px;
+    line-height: 27px;
     width: 502px;
-    height: 135px;
+    min-height: 135px;
+    padding: 25px 0 20px;
 }
 .about__text p {
     margin-bottom: 20px;
@@ -333,39 +312,27 @@ background: #FF3D00;
     width: 1142px;
     margin: 0 auto;
     height: 129px;
-    margin-top: 81px;
 }
 .footer__container{
     display: flex;
     width: 1142px;
     height: 92.64px;
-    margin-bottom: 46px;
-}
-.footer__line{
-    margin-bottom: 30px;
+    align-items: center;
 }
 .footer__logo{
     display: block;
-    top: 13px;
-    left: 0px;
     width: 198px;
     height: 46px;
-}
-.footer-menu{
-    top: 27px;
-    left: 328px;
 }
 .footer-menu__list{
     display: flex;
     margin-left: 131px;
-    margin-top: 19px;
 }
 .footer__info{
     font-size: 11px;
 }
 .socials{
     margin-left: 54px;
-    margin-top: 10px;
 }
 .socials__icons{
     display: flex;
