@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6 {
 .header{
     height: 129px;
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .header__container{
     display: flex;
@@ -94,12 +94,16 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration: underline;
     color: #FF3D00;
 }
+.hello{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 234px;
+}
 .hello__container{
     display: flex;
-    margin-left: 183px;
     width: 776px;
     text-align: center;
-    margin-bottom: 234px;
     flex-direction: column;
     align-items: center;
 }
@@ -159,6 +163,7 @@ h1,h2,h3,h4,h5,h6 {
 .offers__img{
     width: 76px;
     height: 76px;
+    margin-bottom: 30px;
 }
 .offers__item:last-child{
     margin-right: 0;
@@ -168,7 +173,6 @@ h1,h2,h3,h4,h5,h6 {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    padding: 30px 0 0;
 }
 
 .offer__feature-text ,.offers__text{
@@ -199,32 +203,39 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 36px;
     margin-bottom: 49px;
 }
+.news{
+    margin-bottom: 144px;
+}
+.news__container{
+    display: flex;
+    flex-direction: column;
+}
 .news_list{
     display: flex;
     margin-bottom: 55px;
 }
-.news__item--camera{
-    background-image: url(../img/camera.png);
+.news__item{
     width: 557px;
     height: 394px;
     object-fit: cover;
     opacity: 70%;
     margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.news__item--camera{
+    background-image: url(../img/camera.png);
 }
 .news__item--wedding{
     background-image: url(../img/wedding.png);
-    width: 557px;
-    height: 394px;
-    object-fit: cover;
-    opacity: 70%;
+    margin-right: 0;
 }
 .news__item :last-child{
     margin-right: 0px;
 }
 .news__content{
-    display: flex;
-    padding: 252px 29px 0;
-    flex-direction: column;
+    padding: 252px 29px 15px;
 }
 .news__date{
     font-style: normal;
@@ -243,9 +254,8 @@ h1,h2,h3,h4,h5,h6 {
 .pager {
     display: flex;
     text-align: center;
-    margin-bottom: 147px;
-    margin-left: 382px;
     align-items: baseline;
+    margin-left: 382px;
 }
 .pager___list{
     display: flex;
@@ -269,24 +279,29 @@ h1,h2,h3,h4,h5,h6 {
 .pager__link:hover{
 background: #FF3D00;
 }
+.about__content{
+    display: flex;
+}
 .about__container{
-    margin-bottom: 94px;
+    margin-bottom: 75px;
 }
 .about__content::before{
     content: "";
-    display: inline-block;
+    display: inline-flex;
     width: 490px;
     height: 505px;
     background: url("../img/cameraman.png") center center/cover no-repeat;
 }
 .about__desc{
     background: #fff;
-    padding: 65px 80px 81px;
-    display: inline-block;
+    padding: 70px 82px 64px;
+    display: inline-flex;
     border-radius: 5px;
     width: 785px;
     min-height: 455px;
-    margin-left: -140px;
+    flex-direction: column;
+    margin-left: -138px;
+    margin-top: 95px;
 }
 .about__title{
     color: #000000;
@@ -300,7 +315,7 @@ background: #FF3D00;
     line-height: 27px;
     width: 502px;
     min-height: 135px;
-    padding: 25px 0 20px;
+    padding: 21px 0 22px;
 }
 .about__text p {
     margin-bottom: 20px;
