@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     height: 100%;
     align-items: center;
-    background: url(/img/rec.png) center center no-repeat,url(/img/bg.png) center center no-repeat;
+    background: url(./img/rec.png) center center no-repeat,url(./img/bg.png) center center no-repeat;
 }
 .btn{
     width: 168px;
