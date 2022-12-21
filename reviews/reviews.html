@@ -33,7 +33,15 @@
                             </nav>
                             <address class="contacts">
                                 <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                                <div class="contacts__info">График работы</div>
+                                <div class="dropdown">
+                                    <a href="" class="dropdown__link">График работы</a>
+                                    <div class="dropdown__menu">
+                                        <ul class="dropdown__list">
+                                            <li class="dropdown__item">пн-вс: 09:00 - 20:00</li>
+                                            <li class="dropdown__item">Обед: 14:00-14:30</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </address>
                         </div>
                     </header>
@@ -179,7 +187,7 @@
             <section class="inner-section inner-section--bg--grey">
                 <div class="container inner-section__container">
                     <h2 class="inner-section__title">ОСТАВЬТЕ ОТЗЫВ</h2>
-                    <form class="form">
+                    <form method="post" class="form">
                         <div class="form__row">
                             <input type="text" placeholder="Игорь Петрович|" class="form__input form__input--FIO">
                             <input type="text" placeholder="Cсылка на профиль VK" class="form__input">
