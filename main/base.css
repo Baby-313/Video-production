@@ -111,7 +111,7 @@ display: block;
 .dropdown__menu:before {
     content: "";
     display: block;
-    height: 300px;
+    height: 30px;
     left: 0;
     right: 0;
     top: -29px;
