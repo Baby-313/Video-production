@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .main-page-wraper{
     background:  url("../img/hero.png") center top no-repeat, url("../img/bottom-pic.png") center bottom 306px no-repeat;
-    max-width: 1920px;
+    min-width: 1142px;
     margin: 0 auto;
 }
 .wraper__content{
