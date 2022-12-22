@@ -31,6 +31,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .top-line{
     background: url(../img/header.png) center top no-repeat;
+	    min-width: 1142px;
 }
 .top-line__container{
     display: flex;
@@ -152,6 +153,7 @@ display: block;
 }
 .services{
     background: #ffff;
+	    min-width: 1142px;
 }
 .services__container{
     display: flex;
@@ -252,6 +254,7 @@ display: block;
 .partners{
     background: #F4F5F5;
     height: 537px;
+	    min-width: 1142px;
 }
 .partners__container{
     height: 494px;
