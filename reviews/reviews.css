@@ -361,7 +361,8 @@ display: block;
     cursor: pointer;
 }
 .controls__chekbox:checked~.controls__tag{
-background: #F2D4C9;
+    background: #F2D4C9;
+    transition: .4s;
 }
 .controls__chekbox{
     display: none;
