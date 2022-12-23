@@ -120,13 +120,18 @@ display: block;
     height: 30px;
     left: 0;
     right: 0;
-    top: -29px;
+    top: -20px;
     position: absolute;
+
  }
 .dropdown__link{
     font-size: 13px;
     text-decoration: underline;
+    color: rgb(250, 98, 78);
+}
+.dropdown__link:hover{
     color: #FF3D00;
+    transition: .4s;
 }
 .breadcrumbs__list{
     display: flex;
