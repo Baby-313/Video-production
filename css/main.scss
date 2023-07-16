@@ -1,0 +1,21 @@
+$baseFontSize:16px;
+
+
+@import "media";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+
+@import "./bloks/_welcome.scss";
+@import "./bloks/_base.scss";
+@import "./bloks/_header.scss";
+@import "./bloks/_offers.scss";
+@import "./bloks/_reviews.scss";
+@import "./bloks/_services.scss";
+@import "./bloks/_top-line.scss";
+@import "./bloks/_footer.scss";
+
+
+
+
+
+@import "./_layout.scss";

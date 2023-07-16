@@ -1,0 +1,103 @@
+.header{
+    position: relative;
+    width: 100%;
+    max-width: rem(1142px);
+    margin: 0 auto;
+    margin-bottom: rem(100px);
+    height: rem(129px);
+    padding: 0 rem(20px);
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: rem(17px);
+    }
+}
+.logo{
+    display: block;
+    width: rem(198px);
+    height: rem(46px);
+}
+.menu{
+    width: 30%;
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        @include tablets{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__item{
+        display: flex;
+        vertical-align: middle;
+        &:last-child{
+            margin-right: 0;
+        
+        }
+    }
+    &__item--active{
+        color:#FF3D00;
+    }
+    &__link{
+        font-size: rem(14px);
+        text-decoration: none;
+        &:hover{
+            color:#FF3D00;
+            transition: .4s;
+        }
+    }
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    &__phone{
+        text-decoration: none;
+        font-size: rem(26px);
+        margin-bottom: rem(4px);
+        font-style: normal;
+        &:hover{
+            color: #FF5500;
+            transition: .4s;
+        }
+    }
+}
+.dropdown{
+    position: relative;
+    &:hover .dropdown__menu{
+        display: block;
+    }
+    &__menu{
+        width: rem(160px);
+        position: absolute;
+        background: #CDD1D2;
+        border-radius: rem(5px);
+        padding: rem(22px) rem(19px) rem(15px);
+        top: 100%;
+        right: 0%;
+        display: none;
+        margin-top: rem(17px);
+        font-weight: 600;
+        font-size: rem(13px);
+        color: #1E1F20;
+        &:before {
+            content: "";
+            display: block;
+            height: rem(30px);
+            left: 0;
+            right: 0;
+            top: rem(-20px);
+            position: absolute;
+         }
+    }
+    &__link{
+        font-size: rem(13px);
+        text-decoration: underline;
+        color: rgb(250, 98, 78);
+        &:hover{
+            color: #FF3D00;
+            transition: .4s;
+        }
+    }
+}

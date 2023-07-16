@@ -1,0 +1,224 @@
+
+.reviews{
+    background: #FFFFFF;
+}
+.review{
+    display: inline-flex;
+    flex-direction: column;
+    padding: rem(50px) rem(25px);
+    background: #F4F5F5;
+}
+.reviews__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: rem(1142px);
+    align-items: center;
+}
+.reviews__list{
+    column-count: 2;
+    column-gap: rem(26px);
+    padding: rem(94px) 0 rem(63px) 0;
+}
+.review__photo{
+    padding-right: rem(22px);
+}
+.reviews__item{
+    margin-bottom: rem(17px);
+}
+.reviews__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: rem(27px);
+}
+.review__user{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: rem(24px);
+    color: #2E77A4;
+    padding-bottom: rem(11px);
+}
+.review__user::after{
+    content: url(../img/vk-blue\ 1.png);
+    height: rem(29px);
+}
+.avatar{
+    width: rem(140px);
+    height: rem(140px);
+    overflow: hidden;
+    border-radius: 50%;
+}
+.review__tags{
+    display: flex;
+    align-items: flex-start;
+}
+.tag{
+    font-weight: 400;
+    font-size: rem(13px);
+    color: #303030;
+    padding: rem(10px) rem(25px);
+    border-radius: rem(35px);
+    background:#E7E7E7;
+}
+.tag--bg--watusi{
+    background: #F2D4C9;
+}
+.review__title{
+    font-weight: 700;
+    font-size: rem(30px);
+    line-height: rem(42px);
+    color:#202020;
+}
+.review__content-text{
+    font-weight: 400;
+    font-size: rem(16px);
+    line-height: rem(27px);
+    color: #818181;
+    padding: rem(20px) 0 rem(36px);
+}
+.review__date{
+    font-weight: 600;
+    font-size: rem(14px);
+    color: #1A1B1E;
+}
+.separator{
+    background: #373737 url(../img/party.png) right 20% bottom no-repeat;
+    min-height: rem(363px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.separator__container{
+    margin: 0 auto;
+    width: rem(1142px);
+}
+.separator__content{
+    max-width:rem(553px);
+
+}
+.separator__title{
+    font-weight: 700;
+    font-size: rem(48px);
+    line-height: rem(65px);
+}
+.inner-section--bg--grey{
+    background: #F4F5F5;
+
+}
+.inner-section__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: rem(1142px);
+    padding-top: rem(79px);
+
+}
+.inner-section__title{
+    color: #202020;
+    font-weight: 800;
+    font-size: rem(36px);
+    line-height: rem(49px);
+    margin-bottom: rem(56px);
+}
+.form__row{
+    display: flex;
+    margin-bottom: rem(26px);
+}
+.form__input{
+    flex: 1;
+    margin-right: rem(30px);
+    border-radius: rem(4px);
+    border: none;
+    background: #fff;
+    padding: rem(22px) rem(30px);
+    font-size: rem(18px);
+    color: #1A1B1E;
+}
+.form__input--FIO{
+    border: rem(1px) solid #CCCCCC
+}
+.form__input::placeholder{
+    color: #666;
+}
+.form__input--FIO::placeholder{
+    color: #1A1B1E;
+}
+.form__input:last-child{
+    margin-right: 0;
+}
+.form__input--textarea{
+    height: rem(235px);
+}
+.form__controls{
+    display: flex;
+    margin-bottom: rem(33px);
+}
+.form__controls-title{
+    color: #1A1B1E;
+    width: rem(366px);
+    font-weight: 400;
+    font-size: rem(18px);
+    line-height: rem(25px);
+    margin-right: rem(103px);
+}
+.controls{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.controls__item{
+    margin-left: rem(13px);
+    margin-bottom: rem(10px);
+}
+.controls__elem{
+    cursor: pointer;
+}
+.controls__chekbox:checked~.controls__tag{
+    background: #F2D4C9;
+    transition: .4s;
+}
+.controls__chekbox{
+    display: none;
+}
+.btn--color--red{
+    width: rem(168px);
+    background: #FF5500;
+    border-radius: rem(35px);
+    padding: rem(18px) rem(40px);
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: rem(14px);
+    border: none;
+    cursor: pointer;
+}
+.btn--color--red:hover{
+    background: #FF3D00;
+}
+.btn--color--grey{
+    width: rem(168px);
+    background: #8E8E8E;
+    border-radius: rem(35px);
+    padding: rem(18px) rem(40px);
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: rem(14px);
+    border: none;
+    cursor: pointer;
+}
+.btn--color--grey:hover{
+    background: #2B2B2B;
+}
+.form__btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: rem(96px);
+}
+.fotm-btn{
+    margin-right: rem(13px);
+}
+.fotm-btn:last-child{
+    margin-right: 0;
+}

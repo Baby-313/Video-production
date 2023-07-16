@@ -1,0 +1,49 @@
+.top-line{
+    &__container{
+        display: flex;
+        min-height: rem(416px);
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-bottom: rem(30px);
+        align-items: center;
+    }
+    &__content{
+        max-width: rem(1142px);
+        width: 100%;
+        @include tablets{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+.page-title{
+    font-weight: 800;
+    font-size: rem(72px);
+    text-transform: uppercase;
+}
+.breadcrumbs{
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        display: flex;align-items: center;
+        &--active .breadcrumbs__link{
+            color: #9A9A9A;
+            text-decoration: none;
+        }
+        &::after{
+            content: "/";
+            color: #9A9A9A;
+        }
+        &:last-child:after{
+            display: none;
+        }
+    }
+    &__link{
+        color:#FF3D00;
+        font-size: rem(14px);
+    }
+}
